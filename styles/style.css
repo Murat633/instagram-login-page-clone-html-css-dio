@@ -105,8 +105,8 @@ body{
   border-color: rgb(180, 180, 180);
 }
 
-.login-button{
-  background-color: rgb(178,223,252);
+.login-button{  
+  background-color: var(--main-color);
   color: rgb(255,255,255);
   font-weight: bold;
   padding: 8px;
@@ -115,10 +115,6 @@ body{
   width: 94%;
   margin: 8px 40px;
   box-sizing: content-box;
-}
-
-.login-button:hover{
-  background-color: var(--main-color);
 }
 
 .or-container{
@@ -310,17 +306,17 @@ body{
 }
 
 .picture:nth-child(1){
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 .picture:nth-child(2){
-  animation-delay: 10s;
+  animation-delay: 1s;
 }
 .picture:nth-child(3){
-  animation-delay: 15s;
+  animation-delay: 1s;
 }
 .picture:nth-child(4){
-  animation-delay: 20s;
+  animation-delay: 1s;
 }
 .picture:nth-child(5){
-  animation-delay: 25s;
+  animation-delay: 1s;
 }
